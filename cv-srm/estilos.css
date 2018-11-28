@@ -1,0 +1,37 @@
+nav ul {
+  text-align: center !important;
+}
+
+.foto {
+  -webkit-transform: rotate(-270deg);
+  -moz-transform: rotate(-270deg);
+  -ms-transform: rotate(-270deg);
+  transform: rotate(-270deg);
+}
+
+.cuerpo{
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}
+
+body{
+  padding-top: 7em;
+}
+
+.comment{
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* Configuración para móviles */
+
+@media (max-width: 600px){
+  .foto {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+}
